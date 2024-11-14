@@ -1,0 +1,7 @@
+"DESCRİPTİON","DURATİON İN MS","NAME","PARENT SUİTE","START TİME","STATUS","STOP TİME","SUB SUİTE","SUİTE","TEST CLASS","TEST METHOD"
+"","22382","test_remove_product_from_cart","tests","Thu Nov 14 18:47:31 GMT+03:00 2024","passed","Thu Nov 14 18:47:54 GMT+03:00 2024","TestCartPage","test_cart","",""
+"","2590","test_basarili","tests","Thu Nov 14 18:48:02 GMT+03:00 2024","passed","Thu Nov 14 18:48:05 GMT+03:00 2024","TestLogin","test_login","",""
+"","3693","test_gecersiz_sifre","tests","Thu Nov 14 18:48:26 GMT+03:00 2024","passed","Thu Nov 14 18:48:30 GMT+03:00 2024","TestLogin","test_login","",""
+"","3195","test_gecersiz_mail","tests","Thu Nov 14 18:48:14 GMT+03:00 2024","passed","Thu Nov 14 18:48:17 GMT+03:00 2024","TestLogin","test_login","",""
+"","27288","test_increase_product_quantity","tests","Thu Nov 14 18:46:55 GMT+03:00 2024","broken","Thu Nov 14 18:47:22 GMT+03:00 2024","TestCartPage","test_cart","",""
+"","25295","test_add_to_cart","tests","Thu Nov 14 18:46:21 GMT+03:00 2024","passed","Thu Nov 14 18:46:46 GMT+03:00 2024","TestCartPage","test_cart","",""
