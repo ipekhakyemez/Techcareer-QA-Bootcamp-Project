@@ -1,6 +1,7 @@
 # Techcareer-QA-Bootcamp-Project
 
-Klasör Yapısı
+Klasör Yapısı  
+
 manual_tests:
 Trendyol e-ticaret sitesi için hazırlanan manuel test senaryolarını içerir.
 
