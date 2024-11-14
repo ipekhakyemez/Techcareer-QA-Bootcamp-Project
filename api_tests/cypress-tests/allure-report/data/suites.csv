@@ -1,0 +1,6 @@
+"DESCRİPTİON","DURATİON İN MS","NAME","PARENT SUİTE","START TİME","STATUS","STOP TİME","SUB SUİTE","SUİTE","TEST CLASS","TEST METHOD"
+"","161","Update Pet Details (PUT)","","Thu Nov 07 16:56:12 TRT 2024","passed","Thu Nov 07 16:56:13 TRT 2024","","Petstore API Tests","Petstore API Tests","Update Pet Details (PUT)"
+"","164","Delete Pet (DELETE)","","Thu Nov 07 16:56:13 TRT 2024","passed","Thu Nov 07 16:56:13 TRT 2024","","Petstore API Tests","Petstore API Tests","Delete Pet (DELETE)"
+"","168","Add a New Pet (POST)","","Thu Nov 07 16:56:12 TRT 2024","passed","Thu Nov 07 16:56:12 TRT 2024","","Petstore API Tests","Petstore API Tests","Add a New Pet (POST)"
+"","713","Get Pet Details (GET)","","Thu Nov 07 16:56:11 TRT 2024","passed","Thu Nov 07 16:56:12 TRT 2024","","Petstore API Tests","Petstore API Tests","Get Pet Details (GET)"
+"","167","Check Deleted Pet (GET)","","Thu Nov 07 16:56:13 TRT 2024","passed","Thu Nov 07 16:56:13 TRT 2024","","Petstore API Tests","Petstore API Tests","Check Deleted Pet (GET)"

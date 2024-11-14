@@ -1,0 +1,195 @@
+{
+	"id": "1751c31a-5b9e-41a0-a527-b2d26785fc57",
+	"name": "Petstore API Testleri",
+	"timestamp": "2024-11-07T11:48:49.019Z",
+	"collection_id": "32325052-72bc7254-176b-44db-b643-fedfe5c75b2d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-07T11:48:47.392Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "15404b8c-f008-4d7f-81ef-be668885e038",
+			"name": "Pet-Bilgisi-Getirme",
+			"url": "https://petstore.swagger.io/v2/pet/1",
+			"time": 662,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains pet id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains pet id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				662
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains pet id": true
+				}
+			]
+		},
+		{
+			"id": "10dccf85-21f8-47f4-b070-1f40fe551cf6",
+			"name": "Pet-Ekleme",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains pet name 'Fluffy'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains pet name 'Fluffy'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains pet name 'Fluffy'": true
+				}
+			]
+		},
+		{
+			"id": "5e9da678-699f-458c-9687-2822ab21c738",
+			"name": "Pet-Güncelleme",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains updated pet name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains updated pet name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains updated pet name": true
+				}
+			]
+		},
+		{
+			"id": "f6be0ffa-8b88-499a-8de0-00127ea61bf9",
+			"name": "Pet-Silme",
+			"url": "https://petstore.swagger.io/v2/pet/123",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f051ccda-58a7-4d6c-a8a2-3a678781671f",
+			"name": "Silme-İşlemi-Kontrolü",
+			"url": "https://petstore.swagger.io/v2/pet/123",
+			"time": 128,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 2-404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 2-404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 2-404": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1177,
+	"collection": {
+		"requests": [
+			{
+				"id": "15404b8c-f008-4d7f-81ef-be668885e038",
+				"method": "GET"
+			},
+			{
+				"id": "10dccf85-21f8-47f4-b070-1f40fe551cf6",
+				"method": "POST"
+			},
+			{
+				"id": "5e9da678-699f-458c-9687-2822ab21c738",
+				"method": "PUT"
+			},
+			{
+				"id": "f6be0ffa-8b88-499a-8de0-00127ea61bf9",
+				"method": "DELETE"
+			},
+			{
+				"id": "f051ccda-58a7-4d6c-a8a2-3a678781671f",
+				"method": "GET"
+			}
+		]
+	}
+}

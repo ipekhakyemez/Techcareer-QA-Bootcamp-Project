@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1730987771957' stop='1730987773387'>
+    <name>Petstore API Tests</name>
+    <title>Petstore API Tests</title>
+    <test-cases>
+        <test-case start='1730987771957' status='passed' stop='1730987772670'>
+            <name>Get Pet Details (GET)</name>
+            <title>Get Pet Details (GET)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1730987772687' status='passed' stop='1730987772855'>
+            <name>Add a New Pet (POST)</name>
+            <title>Add a New Pet (POST)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1730987772867' status='passed' stop='1730987773028'>
+            <name>Update Pet Details (PUT)</name>
+            <title>Update Pet Details (PUT)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1730987773042' status='passed' stop='1730987773206'>
+            <name>Delete Pet (DELETE)</name>
+            <title>Delete Pet (DELETE)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1730987773219' status='passed' stop='1730987773386'>
+            <name>Check Deleted Pet (GET)</name>
+            <title>Check Deleted Pet (GET)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
