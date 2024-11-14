@@ -10,6 +10,7 @@ Petstore API'si üzerinde gerçekleştirilen testleri içerir.
 
 petstore_collection.json: Postman üzerinde hazırlanan manuel API test koleksiyonu.  
 cypress/integration/api_tests/: Cypress kullanarak otomatikleştirilen API test dosyaları.  
+
 automation_tests:
 Selenium kullanılarak Trendyol sitesi üzerinde hazırlanan otomasyon testlerini içerir.
 
