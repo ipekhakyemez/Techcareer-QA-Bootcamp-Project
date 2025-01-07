@@ -30,8 +30,8 @@ class TestLogin:
     def test_succesfful_login(self):
         login_page = LoginPage(self.driver)
         login_page.close_cookies()  
-        login_page.enter_username("testhesabi.user@gmail.com")
-        login_page.enter_password("Test.password1")
+        login_page.enter_username("")
+        login_page.enter_password("")
         login_page.click_login_button()
 
         assert login_page.is_logged_in(), "Hesabım öğesi görünmüyor, giriş başarılı olmayabilir!"
@@ -39,8 +39,8 @@ class TestLogin:
     def test_invalid_email_login(self): 
         login_page = LoginPage(self.driver)
         login_page.close_cookies()
-        login_page.enter_username("testhesabi.usr@gmail.com")
-        login_page.enter_password("Test.password1")
+        login_page.enter_username("")
+        login_page.enter_password("")
         login_page.click_login_button()
 
         assert login_page.get_error_message() == "E-posta adresiniz ve/veya şifreniz hatalı.", \
@@ -49,8 +49,8 @@ class TestLogin:
     def test_invalid_password_login(self):
         login_page = LoginPage(self.driver)
         login_page.close_cookies()
-        login_page.enter_username("testhesabi.user@gmail.com")
-        login_page.enter_password("Test.password")
+        login_page.enter_username("")
+        login_page.enter_password("")
         login_page.click_login_button()
 
         assert login_page.get_error_message() == "E-posta adresiniz ve/veya şifreniz hatalı.", \
